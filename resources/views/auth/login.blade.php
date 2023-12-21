@@ -1,7 +1,6 @@
 <x-guest-layout>
 <x-slot name="header">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight text-center">
-              Hi {{auth()->user()->name}},  {{ __('Please login...') }}
             </h2>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
